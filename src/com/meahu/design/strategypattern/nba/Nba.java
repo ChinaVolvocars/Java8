@@ -2,6 +2,7 @@ package com.meahu.design.strategypattern.nba;
 
 /**
  * Created by idea on 2016/10/10.
+ * 策略模式
  */
 public class Nba {
 
@@ -11,7 +12,7 @@ public class Nba {
         Advanced advanced = new Advanced();
 
         System.out.println("-----------湖人------------------");
-        int huren=300;
+        int huren = 300;
         Price price = new Price(junior);
         System.out.println("湖人初级：" + price.calculate(huren));
         Price price1 = new Price(intermediate);
@@ -21,7 +22,7 @@ public class Nba {
         System.out.println("\n");
 
         System.out.println("-----------热火------------------");
-        int rehuo=600;
+        int rehuo = 600;
         Price priceA = new Price(junior);
         System.out.println("热火初级：" + price.calculate(rehuo));
         Price priceB = new Price(intermediate);

@@ -4,6 +4,7 @@ import sun.applet.Main;
 
 /**
  * Created by idea on 2016/10/10.
+ * 策略模式
  */
 public class ZhaoYun {
     /**
